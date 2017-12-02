@@ -10,7 +10,7 @@ A. Via Termux (Android)
    - pip2 install  requests
    - pip2 install rsa
    - pip2 install thrift==0.9.3
-   - git clone https://gitlab.com/Nanjolno/MyuuzuBots
+   - git clone https://github.com/iamwijaya/10line.git
    - Done
    
 B. Via VPS
@@ -18,5 +18,5 @@ B. Via VPS
    - sudo apt-get install rsa
    - sudo apt-get install requests
    - sudo apt-get thrift==0.9.3
-   - git clone https://gitlab.com/Nanjolno/MyuuzuBots
+   - git clone https://github.com/iamwijaya/10line.git
    - Done
