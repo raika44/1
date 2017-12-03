@@ -10,7 +10,7 @@ import time,random,sys,json,codecs,threading,glob,re,goslate
 #kk.loginResult()
 
 cl = LINETCR.LINE() #A
-cl.login(token="EnrvDx6q0gMAckSlXYa3.sb64BGZdEL0gc+6NjGPCqW.i8jlYlcuizGs2WOiaI5zaq989VXZOyOSYlT8110p1EA=")
+cl.login(token="Enl3qhkRNjS75CxzPI73.sb64BGZdEL0gc+6NjGPCqW.EY5drKLk6rf28R0pXcwzemOMlJr1HOBY+klifmCL31Q=")
 
 ki = LINETCR.LINE() #B
 ki.login(token="EngsVuxwNmakSGiZ4pB9.Tq64WzM9PhflY4Gnbgv52q./5/SiHJCBs0J6tl/tabf4KcHrMTusmGKgb7pDcRnXDI=")
@@ -25,19 +25,19 @@ ks = LINETCR.LINE() #E
 ks.login(token="EnoTkHGp1Kl4KEpqT3g6.VH1kOSp1GqcGamPfaya0zG.+wHtJ/nL8r8VVL0jbAdL4nC1IdRdpBM0D/AFQ6CFEuU=")
 
 ka = LINETCR.LINE() #F
-ka.login(token="EnzM2fB0Xc5615uHykg0.rWtcvwHzjtTcCfJdDxu/ea.wTbHiBPPCgiqN4velcL0Lv3COIB1zZoFcLEx/FphJ2Q=")
+ka.login(token="EnJxH9YKN9EUS0hdawF9.FaK1WlKcuAZynmiaDH4fYq.tzOJZ71xbSvuV1Uw/wfaHVf4ebmHlt0uSLzTIkHWAdo=")
 
 kb = LINETCR.LINE() #G
-kb.login(token="EnxFqCX9lpgKxWL2tOq9.G3vzkh2KRqqU2Ft0XuUuoq.qdaQ72ZCYmCG4dfgpqP8gI66DI2sJXrc6wWeqO4I0Bo=")
+kb.login(token="En1JNTrC0AEj2L56CPU8.cQkbMKhd2QUoqUuBuugvwa./5kcpM4/ZP7398EQ2BO00EUse6TWNtwOqa8+yI/GnIg=")
 
 ko = LINETCR.LINE() #H
-ko.login(token="Enq6Hn4o7tj5vS8JYb9b.SwCenfu79QLcTUOC6yn8cW.AvS2CDr9R31rKEMC6XSOo19K8GQsvvP0ZTU7Wo0BGtU=")
+ko.login(token="EnYwjIJFodBsvp0DZGk1.SH3E4R5lZQ6UXYs25y5d8q.3SM1UnpSPf9MmqoUNbgKbD6ihb1tGZ0n+yntLgic5jI=")
 
 ke = LINETCR.LINE() #I
-ke.login(token="En029FKci39ROAQCpO86.ONLQdVKMuro9krPPlNGzHG.qmuVhx1ny6RSzNX9tBtmomOrYBQLsmQylLr5qSlAulA=")
+ke.login(token="EnPT8p7GVqg0YQf4Ow91.eyBiwMrjFlH3GFEBpUIHWq.Sa1bfsIdFIgTpYsw5yruG3Fozp3x0Jfz+oil0dFOyFY=")
 
 ku = LINETCR.LINE() #J
-ku.login(token="EnwbuGtoJosEIeFRErM6.MgxSLzBDvG958+5fm3S89G.LqTHdcY8VVN+ykZI0B8HuHFrCcYtt2gWfKUABnUaWos=")
+ku.login(token="En03M0ZTHYkviKldeejf.ZFXtdMpTbVkeOP1psLOdFW.E3/gquqsNh5osQCtN/8GEGqCk6qj67gyqGYU1QR/JuU=")
 
 
 print "Welcome"
@@ -46,7 +46,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ╔═════════╗
-║BOT Menu  ║
+║BOT Menu   ║
 ╠═════════╝
 ║🛡[Alphabet join]
 ║🛡[Reboot]       
@@ -138,8 +138,8 @@ Gmid = ko.getProfile().mid
 Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
-admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","ube1d4aa2c3f58100a000ca4501803466","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1"]
+admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
 wait = {
     'contact':False,
     'autoJoin':True,
