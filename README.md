@@ -10,6 +10,7 @@ A. Via Termux (Android)
    - pip2 install  requests
    - pip2 install rsa
    - pip2 install thrift==0.9.3
+   - pip2 install goslate
    - git clone https://github.com/iamwijaya/10line.git
    - Done
    
