@@ -37,7 +37,7 @@ ke = LINETCR.LINE() #I
 ke.login(token="EnPT8p7GVqg0YQf4Ow91.eyBiwMrjFlH3GFEBpUIHWq.Sa1bfsIdFIgTpYsw5yruG3Fozp3x0Jfz+oil0dFOyFY=")
 
 ku = LINETCR.LINE() #J
-ku.login(token="En03M0ZTHYkviKldeejf.ZFXtdMpTbVkeOP1psLOdFW.E3/gquqsNh5osQCtN/8GEGqCk6qj67gyqGYU1QR/JuU=")
+ku.login(token="EnzM2fB0Xc5615uHykg0.rWtcvwHzjtTcCfJdDxu/ea.wTbHiBPPCgiqN4velcL0Lv3COIB1zZoFcLEx/FphJ2Q=")
 
 
 print "Welcome"
@@ -45,85 +45,86 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-╔═════════╗
-║BOT Menu   ║
-╠═════════╝
-║🛡[Alphabet join]
-║🛡[Reboot]       
-║🛡[Dadah]        
-║🛡[Allrespon: ]  
-║🛡[Jam on/off]
-║🛡[Change clock]
-║🛡[Jam Update]
-╠═════════
-║     ALL     
-╠═════════
-║[Me]            
-║[My mid]       
-║[Bot?]          
-║[Id Group]      
-║[Ginfo]         
-║[Mid LL]        
-║[LL 1/2/3/4]    
-║[Respon]        
-║[Speed]         
-║[Spam]          
-║[Alltag]        
-║[Banlist]       
-║[Gn [namagroup]]
-║[Cancel]        
-║[Set View]      
-║[Ourl]          
-║[Curl]          
-║[Creator]       
-║[Gcreator]     
-║[Quotes]        
-║[Mid [@TAGORG]] 
-╠════════════
-║       α∂мιη
-╠════════════
-║⏹[Set group]        
-║⏹[Backup]           
-║⏹[copy [@]]         
-║⏹[Banned [@]]       
-║⏹[Unban [@]]        
-║⏹[Kill [@]]         
-║⏹[Hai [@T]]       
-║⏹[Invite mid]      
-║⏹[Kick mid]         
-║⏹[[Name bot] join]  
-║⏹[Bye [Name bot]]   
-║⏹[Spamcontact [@]]  
-║⏹[Admin add [@]]    
-║⏹[Image: [@]]       
-║⏹[Albumat']         
-║⏹[random: [JUMLAH]] 
-║⏹[Adminlist]
-║⏹[Cleanse]
-║⏹[Admin remove [@]]
-╚══════╗SIDER║
-╔══════╩════╝
-║⏹[Lurk]    
-║⏹[Who read]
-╚═══╗gяσυρ║
-╔═══╩════╝
-║[Protect on/off]
-║[Contact on/off]
-║[Cancel on/off] 
-║[Join on/off]   
+╔══════════
+║☬ BOT Menu ☬
+╠══════════
+║✤[Alphabet join]
+║✤[Reboot]       
+║✤[Dadah]        
+║✤[Allrespon: ]  
+║✤[Jam on/off]
+║✤[Change clock]
+║✤[Jam Update]
+╚
+    ☬ALL☬      
+╔═════════
+║❧[Me]            
+║❧[My mid]       
+║❧[Bot?]          
+║❧[Id Group]      
+║❧[Ginfo]         
+║❧[Mid LL]        
+║❧[LL 1/2/3/4]    
+║❧[Respon]        
+║❧[Speed]         
+║❧[Spam]          
+║❧[Alltag]        
+║❧[Banlist]       
+║❧[Gn [namagroup]]
+║❧[Cancel]        
+║❧[Set View]      
+║❧[Ourl]          
+║❧[Curl]          
+║❧[Creator]       
+║❧[Gcreator]     
+║❧[Quotes]        
+║❧[Mid [@TAGORG]] 
+
+         ☬ α∂мιη☬ 
+
+║ヅ[Set group]        
+║ヅ[Backup]           
+║ヅ[copy [@]]         
+║ヅ[Banned [@]]       
+║ヅ[Unban [@]]        
+║ヅ[Kill [@]]         
+║ヅ[Hai [@T]]       
+║ヅ[Invite mid]      
+║ヅ[Kick mid]         
+║ヅ[[Name bot] join]  
+║ヅ⏹[Bye [Name bot]]   
+║ヅ[Spamcontact [@]]  
+║ヅ[Admin add [@]]    
+║ヅ[Image: [@]]       
+║ヅ[Albumat']         
+║ヅ[random: [JUMLAH]] 
+║ヅ[Adminlist]
+║ヅ[Cleanse]
+║ヅ[Admin remove [@]]
+
+      ☠SIDER☠
+
+║☑[Lurk]    
+║☑[Who read]
+      gяσυρ
+
+║✟[Protect on/off]
+║✟[Contact on/off]
+║✟[Cancel on/off] 
+║✟[Join on/off]   
 ╚══════════
 """
 
 Setgroup =""" Protection Menu􀔃􀄆red check mark􏿿
 
-❕[Protect Group]
--- Protect on/off
-❕[Mid Via Contact]
- -- Contact on/off
-❕[Cancel All Invited]
--- Cancel on/off
-❕[No Joinned]
--- Join on/off
+✟[Protect Group]
+-- [Protect on/off]
+✟[Mid Via Contact]
+-- [Contact on/off]
+✟[Cancel All Invited]
+-- [Cancel on/off]
+✟[No Joinned]
+-- [Join on/off]
 """
 KAC=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
 DEF=[ka,kb,ko,ke,ku]
@@ -138,8 +139,8 @@ Gmid = ko.getProfile().mid
 Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ub50eb8c199bda4714bcb880d046579d9","u8a35319a6d0f016f2673c96194cac82f","u545c8312f4fdd3bdbb04a15d46ac53a6","ube1d4aa2c3f58100a000ca4501803466","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1"]
-admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ub50eb8c199bda4714bcb880d046579d9","u8a35319a6d0f016f2673c96194cac82f","u545c8312f4fdd3bdbb04a15d46ac53a6","ube1d4aa2c3f58100a000ca4501803466","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u4704c2556859253b427058c375753e10"]
+admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","u1186c85a64497cb87781f79b3ee8a1c1","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -429,7 +430,7 @@ def bot(op):
                         try:
                             random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
                         except:
-                            print ("client Kick regulation or Because it does not exist in the group、\n["+op.param1+"]\nの\n["+op.param2+"]\nを蹴る事ができませんでした。\nブラックリストに追加します。")
+                            print ("client Dead regulation or Because it does not exist in the group、\n["+op.param1+"]\nの\n["+op.param2+"]\nを蹴る事ができませんでした。\nブラックリストに追加します。")
                         if op.param2 in wait["blacklist"]:
                             pass
                         if op.param2 in wait["whitelist"]:
@@ -1046,35 +1047,35 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Bmid}
                 kk.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Gift"]:
+            elif msg.text in ["Gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '5'}
                 msg.text = None
                 cl.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Cv1 gift"]:
+            elif msg.text in ["Cv1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '6'}
                 msg.text = None
                 ki.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Cv2 gift"]:
+            elif msg.text in ["Cv2 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '8'}
                 msg.text = None
                 kk.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Cv3 gift"]:
+            elif msg.text in ["Cv3 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '10'}
                 msg.text = None
                 kc.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","All gift"]:
+            elif msg.text in ["All gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
@@ -2567,6 +2568,7 @@ def bot(op):
            
         #-------------Fungsi Spam Start---------------------#
             elif msg.text in ["Spam"]:
+              if msg.from_ in admin:
                 cl.sendText(msg.to,"Feri ganteng")
                 ki.sendText(msg.to,"Feri ganteng")
                 kk.sendText(msg.to,"Feri ganteng")
@@ -2608,7 +2610,7 @@ def bot(op):
        #--------------Fungsi Broadcast Finish-----------#
 
 
-            elif msg.text in ["#welcome"]:
+            elif msg.text in ["Welcome"]:
                 ki.sendText(msg.to,"Selamat datang ")
                 kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
