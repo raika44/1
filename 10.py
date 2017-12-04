@@ -1039,6 +1039,10 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Hmid}
                 ke.sendMessage(msg)
+
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Hmid}
+                ku.sendMessage(msg)
             elif msg.text in ["Me"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.from_}
