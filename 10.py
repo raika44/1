@@ -92,7 +92,7 @@ helpMessage ="""
 ║ヅ[Invite mid]      
 ║ヅ[Kick mid]         
 ║ヅ[[Name bot] join]  
-║ヅ⏹[Bye [Name bot]]   
+║ヅ[Bye [Name bot]]   
 ║ヅ[Spamcontact [@]]  
 ║ヅ[Admin add [@]]    
 ║ヅ[Image: [@]]       
