@@ -19,25 +19,25 @@ kk = LINETCR.LINE() #C
 kk.login(token="EnDQ0DdP3bPZQmdZ5rYf.IJuXMM0paw8MC8LHLmRilW.UKj1hqg60Ir+EjdwCmxPHS0SBELZjkhKW7ReUAMzhfI=")
 
 kc = LINETCR.LINE() #D
-kc.login(token="EnhBnse5w31ECswg8zr6.vfYdeVt90727bkfDrQXtPG.5qRuk9yMZVzSPYWoNLOa2e62gsYQnWZ/tOhHsyHJta0=")
+kc.login(token="EntLBVLbauIVitcUNYhf.D52MeUP/KGfVPLsjeexitW.i1LVdyAvC/ZirW+knOzlJ3kmallaEVfO39+lCEqgkjg=")
 
 ks = LINETCR.LINE() #E
 ks.login(token="EnoTkHGp1Kl4KEpqT3g6.VH1kOSp1GqcGamPfaya0zG.+wHtJ/nL8r8VVL0jbAdL4nC1IdRdpBM0D/AFQ6CFEuU=")
 
 ka = LINETCR.LINE() #F
-ka.login(token="EnJxH9YKN9EUS0hdawF9.FaK1WlKcuAZynmiaDH4fYq.tzOJZ71xbSvuV1Uw/wfaHVf4ebmHlt0uSLzTIkHWAdo=")
+ka.login(token="EnzM2fB0Xc5615uHykg0.rWtcvwHzjtTcCfJdDxu/ea.wTbHiBPPCgiqN4velcL0Lv3COIB1zZoFcLEx/FphJ2Q=")
 
 kb = LINETCR.LINE() #G
-kb.login(token="En1JNTrC0AEj2L56CPU8.cQkbMKhd2QUoqUuBuugvwa./5kcpM4/ZP7398EQ2BO00EUse6TWNtwOqa8+yI/GnIg=")
+kb.login(token="EnxFqCX9lpgKxWL2tOq9.G3vzkh2KRqqU2Ft0XuUuoq.qdaQ72ZCYmCG4dfgpqP8gI66DI2sJXrc6wWeqO4I0Bo=")
 
 ko = LINETCR.LINE() #H
-ko.login(token="EnYwjIJFodBsvp0DZGk1.SH3E4R5lZQ6UXYs25y5d8q.3SM1UnpSPf9MmqoUNbgKbD6ihb1tGZ0n+yntLgic5jI=")
+ko.login(token="EnvbXiXdzOGwU7BVW852.aNKbgBsREbMvCj8m0nvWCG.Chl6XOXjSVAk2ZbhTYrwTz+KVYlWn9TJQVw8uFElH98=")
 
 ke = LINETCR.LINE() #I
-ke.login(token="EnPT8p7GVqg0YQf4Ow91.eyBiwMrjFlH3GFEBpUIHWq.Sa1bfsIdFIgTpYsw5yruG3Fozp3x0Jfz+oil0dFOyFY=")
+ke.login(token="EnikgbCoqKpS1L1kKrh9.u3U8jRSOs6fBGh1qvFc5Iq.vJVtSPYMJYApJTUo0rpwYxIkcSVe42LkL3E0MLzPkAE=")
 
 ku = LINETCR.LINE() #J
-ku.login(token="EnzM2fB0Xc5615uHykg0.rWtcvwHzjtTcCfJdDxu/ea.wTbHiBPPCgiqN4velcL0Lv3COIB1zZoFcLEx/FphJ2Q=")
+ku.login(token="En0WeBwRahpV331QzHbb.wuTcoCd5wN9MQMJsuRmIwW.VPKCZNzhmcs/db2IHjJNvAeE3vXlbuwFG/izCiIwlN8=")
 
 
 print "Welcome"
@@ -45,76 +45,76 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-╔══════════
-║☬ BOT Menu ☬
-╠══════════
-║✤[Alphabet join]
-║✤[Reboot]       
-║✤[Dadah]        
-║✤[Allrespon: ]  
-║✤[Jam on/off]
-║✤[Change clock]
-║✤[Jam Update]
-╚
+
+☬ BOT Menu ☬
+
+✤[Alphabet join]
+✤[Reboot]       
+✤[Dadah]        
+✤[Allrespon: ]  
+✤[Jam on/off]
+✤[Change clock]
+✤[Jam Update]
+
     ☬ALL☬      
-╔═════════
-║❧[Me]            
-║❧[My mid]       
-║❧[Bot?]          
-║❧[Id Group]      
-║❧[Ginfo]         
-║❧[Mid LL]        
-║❧[LL 1/2/3/4]    
-║❧[Respon]        
-║❧[Speed]         
-║❧[Spam]          
-║❧[Alltag]        
-║❧[Banlist]       
-║❧[Gn [namagroup]]
-║❧[Cancel]        
-║❧[Set View]      
-║❧[Ourl]          
-║❧[Curl]          
-║❧[Creator]       
-║❧[Gcreator]     
-║❧[Quotes]        
-║❧[Mid [@TAGORG]] 
+
+❧[Me]            
+❧[My mid]       
+❧[Bot?]          
+❧[Id Group]      
+❧[Ginfo]         
+❧[Mid LL]        
+❧[LL 1/2/3/4]    
+❧[Respon]        
+❧[Speed]         
+❧[Spam]          
+❧[Alltag]        
+❧[Banlist]       
+❧[Gn [namagroup]]
+❧[Cancel]        
+❧[Set View]      
+❧[Ourl]          
+❧[Curl]          
+❧[Creator]       
+❧[Gcreator]     
+❧[Quotes]        
+❧[Mid [@TAGORG]] 
 
          ☬ α∂мιη☬ 
 
-║ヅ[Set group]        
-║ヅ[Backup]           
-║ヅ[copy [@]]         
-║ヅ[Banned [@]]       
-║ヅ[Unban [@]]        
-║ヅ[Kill [@]]         
-║ヅ[Hai [@T]]       
-║ヅ[Invite mid]      
-║ヅ[Kick mid]         
-║ヅ[[Name bot] join]  
-║ヅ[Bye [Name bot]]   
-║ヅ[Spamcontact [@]]  
-║ヅ[Admin add [@]]    
-║ヅ[Image: [@]]       
-║ヅ[Albumat']         
-║ヅ[random: [JUMLAH]] 
-║ヅ[Adminlist]
-║ヅ[Cleanse]
-║ヅ[Admin remove [@]]
-║ヅ[List group]
-║ヅ[Spam:
+ヅ[Set group]        
+ヅ[Backup]           
+ヅ[copy [@]]         
+ヅ[Banned [@]]       
+ヅ[Unban [@]]        
+ヅ[Kill [@]]         
+ヅ[Hai [@T]]       
+ヅ[Invite mid]      
+ヅ[Kick mid]         
+ヅ[[Name bot] join]  
+ヅ[Bye [Name bot]]   
+ヅ[Spamcontact [@]]  
+ヅ[Admin add [@]]    
+ヅ[Image: [@]]       
+ヅ[Albumat']         
+ヅ[random: [JUMLAH]] 
+ヅ[Adminlist]
+ヅ[Cleanse]
+ヅ[Admin remove [@]]
+ヅ[List group]
+ヅ[Spam:
 
       ☠SIDER☠
 
-║☑[Lurk]    
-║☑[Who read]
+☑[Lurk]    
+☑[Who read]
       gяσυρ
 
-║✟[Protect on/off]
-║✟[Contact on/off]
-║✟[Cancel on/off] 
-║✟[Join on/off]   
-╚══════════
+✟[Protect on/off]
+✟[Contact on/off]
+✟[Cancel on/off] 
+✟[Join on/off]   
+
 """
 
 Setgroup =""" Protection Menu􀔃􀄆red check mark􏿿
@@ -141,7 +141,7 @@ Gmid = ko.getProfile().mid
 Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ub50eb8c199bda4714bcb880d046579d9","u8a35319a6d0f016f2673c96194cac82f","u545c8312f4fdd3bdbb04a15d46ac53a6","ube1d4aa2c3f58100a000ca4501803466","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u4704c2556859253b427058c375753e10"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ub50eb8c199bda4714bcb880d046579d9","u8a35319a6d0f016f2673c96194cac82f","u779da612ea7e92016fa654891045c84f","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","u02790119b4ab781995709f0cd0d57072","u537bbc26bb284ba15b807d5055f0b989","u594b4239c0f95a7f66aa68d252b3225b"]
 admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","u1186c85a64497cb87781f79b3ee8a1c1","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
 wait = {
     'contact':False,
@@ -158,16 +158,16 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"A ",
-    "cName2":"B ",
-    "cName3":"C ",
-    "cName4":"D ",
-    "cName5":"E ",
-    "cName6":"F ",
-    "cName7":"G ",
-    "cName8":"H ",
-    "cName9":"I ",
-    "cName10":"J ",
+    "cName":"グループに1 ",
+    "cName2":"グループに2 ",
+    "cName3":"グループに3 ",
+    "cName4":"グループに4 ",
+    "cName5":"グループに5 ",
+    "cName6":"グループに6 ",
+    "cName7":"グループに7 ",
+    "cName8":"グループに8 ",
+    "cName9":"グループに9 ",
+    "cName10":"グループに10 ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1294,6 +1294,7 @@ def bot(op):
                 kb.sendText(msg.to,Fmid)
                 ko.sendText(msg.to,Gmid)
                 ke.sendText(msg.to,Hmid)
+                ku.sendText(msg.to,Jmid)
             elif "LL 1" == msg.text:
                 cl.sendText(msg.to,mid)
             elif "LL 2" == msg.text:
@@ -1865,21 +1866,21 @@ def bot(op):
         #-------------Fungsi Jam on/off Start-------------------#            
             elif msg.text in ["Jam on"]:
                 if wait["clock"] == True:
-                    kc.sendText(msg.to,"Bot 4 jam on")
+                    kc.sendText(msg.to,"Bot 1 jam on")
                 else:
                     wait["clock"] = True
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"(%H:%M)")
-                    profile = kc.getProfile()
-                    profile.displayName = wait["cName4"] + nowT
-                    kc.updateProfile(profile)
-                    kc.sendText(msg.to,"Jam Selalu On")
+                    profile = cl.getProfile()
+                    profile.displayName = wait["cName1"] + nowT
+                    cl.updateProfile(profile)
+                    cl.sendText(msg.to,"Jam Selalu On")
             elif msg.text in ["Jam off"]:
                 if wait["clock"] == False:
-                    kc.sendText(msg.to,"Bot 4 jam off")
+                    cl.sendText(msg.to,"Bot 1 jam off")
                 else:
                     wait["clock"] = False
-                    kc.sendText(msg.to,"Jam Sedang Off")
+                    cl.sendText(msg.to,"Jam Sedang Off")
          #-------------Fungsi Jam on/off Finish-------------------#           
          
          #-------------Fungsi Change Clock Start------------------#
@@ -1903,44 +1904,44 @@ def bot(op):
                     ki.updateProfile(profile)
                     ki.sendText(msg.to,"Sukses update")
 
-                    profile2 = kk.getProfile()
-                    profile2.displayName = wait["cName3"] + nowT
-                    kk.updateProfile2(profile)
+                    profile = kk.getProfile()
+                    profile.displayName = wait["cName3"] + nowT
+                    kk.updateProfile(profile)
                     kk.sendText(msg.to,"Sukses update")
 
-                    profile3 = kc.getProfile()
+                    profile = kc.getProfile()
                     profile.displayName = wait["cName4"] + nowT
-                    kc.updateProfile3(profile)
+                    kc.updateProfile(profile)
                     kc.sendText(msg.to,"Sukses update")
 
-                    profile4 = ks.getProfile()
-                    profile4.displayName = wait["cName5"] + nowT
-                    ks.updateProfile4(profile)
+                    profile = ks.getProfile()
+                    profile.displayName = wait["cName5"] + nowT
+                    ks.updateProfile(profile)
                     ks.sendText(msg.to,"Sukses update")
 
-                    profile5 = ka.getProfile()
-                    profile5.displayName = wait["cName6"] + nowT
-                    ka.updateProfile5(profile)
+                    profile = ka.getProfile()
+                    profile.displayName = wait["cName6"] + nowT
+                    ka.updateProfile(profile)
                     ka.sendText(msg.to,"Sukses update")
 
-                    profile6 = kb.getProfile()
-                    profile6.displayName = wait["cName7"] + nowT
-                    kb.updateProfile6(profile)
+                    profile = kb.getProfile()
+                    profile.displayName = wait["cName7"] + nowT
+                    kb.updateProfile(profile)
                     kb.sendText(msg.to,"Sukses update")
 
-                    profile7 = ko.getProfile()
-                    profile7.displayName = wait["cName8"] + nowT
-                    ko.updateProfile7(profile)
+                    profile = ko.getProfile()
+                    profile.displayName = wait["cName8"] + nowT
+                    ko.updateProfile(profile)
                     ko.sendText(msg.to,"Sukses update")
 
-                    profile8 = ke.getProfile()
-                    profile8.displayName = wait["cName9"] + nowT
-                    ke.updateProfil8e(profile)
+                    profile = ke.getProfile()
+                    profile.displayName = wait["cName9"] + nowT
+                    ke.updateProfile(profile)
                     ke.sendText(msg.to,"Sukses update")
 
-                    profile9 = ku.getProfile()
-                    profile9.displayName = wait["cName10"] + nowT
-                    ku.updateProfile9(profile)
+                    profile = ku.getProfile()
+                    profile.displayName = wait["cName10"] + nowT
+                    ku.updateProfile(profile)
                     ku.sendText(msg.to,"Sukses update")
                 else:
                     kc.sendText(msg.to,"Aktifkan jam terlebih dulu")
