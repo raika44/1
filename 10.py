@@ -1872,7 +1872,7 @@ def bot(op):
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"(%H:%M)")
                     profile = cl.getProfile()
-                    profile.displayName = wait["cName1"] + nowT
+                    profile.displayName = wait["cName"] + nowT
                     cl.updateProfile(profile)
                     cl.sendText(msg.to,"Jam Selalu On")
             elif msg.text in ["Jam off"]:
@@ -1900,7 +1900,7 @@ def bot(op):
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"(%H:%M)")
                     profile = cl.getProfile()
-                    profile.displayName = wait["cName1"] + nowT
+                    profile.displayName = wait["cName"] + nowT
                     cl.updateProfile(profile)
                     cl.sendText(msg.to,"Sukses update")
 
