@@ -1294,7 +1294,7 @@ def bot(op):
                 kb.sendText(msg.to,Fmid)
                 ko.sendText(msg.to,Gmid)
                 ke.sendText(msg.to,Hmid)
-                ku.sendText(msg.to,Jmid)
+                ku.sendText(msg.to,Imid)
             elif "LL 1" == msg.text:
                 cl.sendText(msg.to,mid)
             elif "LL 2" == msg.text:
@@ -1866,7 +1866,7 @@ def bot(op):
         #-------------Fungsi Jam on/off Start-------------------#            
             elif msg.text in ["Jam on"]:
                 if wait["clock"] == True:
-                    kc.sendText(msg.to,"Bot 1 jam on")
+                    cl.sendText(msg.to,"Bot 1 jam on")
                 else:
                     wait["clock"] = True
                     now2 = datetime.now()
@@ -1899,6 +1899,11 @@ def bot(op):
                 if wait["clock"] == True:
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"(%H:%M)")
+                    profile = cl.getProfile()
+                    profile.displayName = wait["cName1"] + nowT
+                    cl.updateProfile(profile)
+                    cl.sendText(msg.to,"Sukses update")
+
                     profile = ki.getProfile()
                     profile.displayName = wait["cName2"] + nowT
                     ki.updateProfile(profile)
