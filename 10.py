@@ -13,7 +13,7 @@ cl = LINETCR.LINE() #A
 cl.login(token="Ent7AB2AQuCyKHI9AAj3.sb64BGZdEL0gc+6NjGPCqW.Xow17ACu7geUiDKijlAEmHmLmqtISgopKemgHc/YNCM=")
 
 ki = LINETCR.LINE() #B
-ki.login(token="EngsVuxwNmakSGiZ4pB9.Tq64WzM9PhflY4Gnbgv52q./5/SiHJCBs0J6tl/tabf4KcHrMTusmGKgb7pDcRnXDI=")
+ki.login(token="EnDQ0DdP3bPZQmdZ5rYf.IJuXMM0paw8MC8LHLmRilW.UKj1hqg60Ir+EjdwCmxPHS0SBELZjkhKW7ReUAMzhfI=")
 
 kk = LINETCR.LINE() #C
 kk.login(token="EnDQ0DdP3bPZQmdZ5rYf.IJuXMM0paw8MC8LHLmRilW.UKj1hqg60Ir+EjdwCmxPHS0SBELZjkhKW7ReUAMzhfI=")
@@ -45,76 +45,78 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-
-☬ BOT Menu ☬
-
-✤[Alphabet join]
-✤[Reboot]       
-✤[Dadah]        
-✤[Allrespon: ]  
-✤[Jam on/off]
-✤[Change clock]
-✤[Jam Update]
-
-    ☬ALL☬      
-
-❧[Me]            
-❧[My mid]       
-❧[Bot?]          
-❧[Id Group]      
-❧[Ginfo]         
-❧[Mid LL]        
-❧[LL 1/2/3/4]    
-❧[Respon]        
-❧[Speed]         
-❧[Spam]          
-❧[Alltag]        
-❧[Banlist]       
-❧[Gn [namagroup]]
-❧[Cancel]        
-❧[Set View]      
-❧[Ourl]          
-❧[Curl]          
-❧[Creator]       
-❧[Gcreator]     
-❧[Quotes]        
-❧[Mid [@TAGORG]] 
-
-         ☬ α∂мιη☬ 
-
-ヅ[Set group]        
-ヅ[Backup]           
-ヅ[copy [@]]         
-ヅ[Banned [@]]       
-ヅ[Unban [@]]        
-ヅ[Kill [@]]         
-ヅ[Hai [@T]]       
-ヅ[Invite mid]      
-ヅ[Kick mid]         
-ヅ[[Name bot] join]  
-ヅ[Bye [Name bot]]   
-ヅ[Spamcontact [@]]  
-ヅ[Admin add [@]]    
-ヅ[Image: [@]]       
-ヅ[Albumat']         
-ヅ[random: [JUMLAH]] 
-ヅ[Adminlist]
-ヅ[Cleanse]
-ヅ[Admin remove [@]]
-ヅ[List group]
-ヅ[Spam:
-
-      ☠SIDER☠
-
-☑[Lurk]    
-☑[Who read]
-      gяσυρ
-
-✟[Protect on/off]
-✟[Contact on/off]
-✟[Cancel on/off] 
-✟[Join on/off]   
-
+╔══════════╗
+╠☬вðт мєйϋ☬ఁ║
+╠══════════╝
+║
+╠✤[Y]
+╠✤[O]
+╠✤[Reboot]
+╠✤[Allrespon: ]
+╠✤[Jam on/off]
+╠✤[Change clock]
+╠✤[Jam Update]
+╠✤[Auto leave:on/off]
+╠══════════╗
+╠════☬αℒℒ☬║
+╠══════════╝
+╠❧[Me]
+╠❧[My mid]
+╠❧[Bot?]
+╠❧[Id Group]
+╠❧[Ginfo]
+╠❧[Mid LL]
+╠❧[LL 1/2/3/4]
+╠❧[Respon]
+╠❧[Speed]
+╠❧[Spam]
+╠❧[Alltag]
+╠❧[Banlist]
+╠❧[Gn [namagroup]]
+╠❧[Cancel]
+╠❧[Set View]
+╠❧[Ourl]
+╠❧[Curl]
+╠❧[Creator]
+╠❧[Gcreator]
+╠❧[Quotes]
+╠❧[Mid [@TAGORG]]
+╠════════
+╠═☬α∂мιη☬ 
+╠════════
+╠ヅ[Set group]
+╠ヅ[Backup]
+╠ヅ[copy [@]]
+╠ヅ[Banned [@]]
+╠ヅ[Unban [@]]
+╠ヅ[Kill [@]]
+╠ヅ[Hai [@T]]
+╠ヅ[Invite mid]
+╠ヅ[Kick mid]
+╠ヅ[[Name bot] join]
+╠ヅ[Bye [Name bot]]
+╠ヅ[Spamcontact [@]]
+╠ヅ[Admin add [@]]
+╠ヅ[Image: [@]]
+╠ヅ[Albumat']
+╠ヅ[random: [JUMLAH]]
+╠ヅ[Adminlist]
+╠ヅ[Cleanse]
+╠ヅ[Admin remove [@]]
+╠ヅ[List group]
+╠ヅ[Spam:on]
+╠════════╗
+╠════☠☠ ═╣
+╠════════╝
+╠↬[Lurk]
+╠↬[Who read]
+╠══════╗
+╠══gяσυρ╣
+╠══════╝
+╠✟[Protect on/off]
+╠✟[Contact on/off]
+╠✟[Cancel on/off]
+╠✟[Join on/off]
 """
 
 Setgroup =""" Protection Menu􀔃􀄆red check mark􏿿
@@ -129,7 +131,7 @@ Setgroup =""" Protection Menu􀔃􀄆red check mark􏿿
 -- [Join on/off]
 """
 KAC=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
-DEF=[ka,kb,ko,ke,ku]
+DEF=[ki,kk,kc,ks,ka,kb,ko,ke,ku]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -142,7 +144,7 @@ Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u481eb86e0cc37a5d060bfea7260a5c43","ub50eb8c199bda4714bcb880d046579d9","u8a35319a6d0f016f2673c96194cac82f","u779da612ea7e92016fa654891045c84f","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","u02790119b4ab781995709f0cd0d57072","u537bbc26bb284ba15b807d5055f0b989","u594b4239c0f95a7f66aa68d252b3225b"]
-admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ufef18c7cfb35c54f06efa37a9b0b5b57","ub50eb8c199bda4714bcb880d046579d9","u1186c85a64497cb87781f79b3ee8a1c1","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","ub1670434553bf6a942b6ea1ce9837c0b","u7c0935c0b90251acd834c200761e05c9","u0aa2819a41c3daab8e42e51b51419558","ub21ddee2be4bceaeaec724b6e58e43f1","u1186c85a64497cb87781f79b3ee8a1c1","ua2796a0ef9265113bd291a692e781986","u9865ec9596dd560f79f3fe45337b3cf6"]
+admin=["uc1c72b2a69c6ab18a7b28aa77fee5822","u481eb86e0cc37a5d060bfea7260a5c43","ub50eb8c199bda4714bcb880d046579d9","u8a35319a6d0f016f2673c96194cac82f","u779da612ea7e92016fa654891045c84f","ube1d4aa2c3f58100a000ca4501803466","u4704c2556859253b427058c375753e10","u837559287da4ad042ed9f4f4c54b9439","u02790119b4ab781995709f0cd0d57072","u537bbc26bb284ba15b807d5055f0b989","u594b4239c0f95a7f66aa68d252b3225b","u481eb86e0cc37a5d060bfea7260a5c43"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -158,16 +160,16 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"グループに1 ",
-    "cName2":"グループに2 ",
-    "cName3":"グループに3 ",
-    "cName4":"グループに4 ",
-    "cName5":"グループに5 ",
-    "cName6":"グループに6 ",
-    "cName7":"グループに7 ",
-    "cName8":"グループに8 ",
-    "cName9":"グループに9 ",
-    "cName10":"グループに10 ",
+    "cName":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷",
+    "cName2":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷2 ",
+    "cName3":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷3 ",
+    "cName4":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷4 ",
+    "cName5":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷5 ",
+    "cName6":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷6 ",
+    "cName7":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷7 ",
+    "cName8":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷8 ",
+    "cName9":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷9 ",
+    "cName10":"􀀷􀰂􀰂꧁  f⃟e⃟r⃟꧂􏿿􀀷10 ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1285,7 +1287,6 @@ def bot(op):
             elif "My mid" == msg.text:
                 random.choice(KAC).sendText(msg.to, msg.from_)
             elif "Mid LL" == msg.text:
-                cl.sendText(msg.to,mid)
                 ki.sendText(msg.to,Amid)
                 kk.sendText(msg.to,Bmid)
                 kc.sendText(msg.to,Cmid)
@@ -1295,8 +1296,6 @@ def bot(op):
                 ko.sendText(msg.to,Gmid)
                 ke.sendText(msg.to,Hmid)
                 ku.sendText(msg.to,Imid)
-            elif "LL 1" == msg.text:
-                cl.sendText(msg.to,mid)
             elif "LL 2" == msg.text:
                 ki.sendText(msg.to,Amid)
             elif "LL 3" == msg.text:
@@ -1310,7 +1309,6 @@ def bot(op):
                                      "STKID": "100",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
-                cl.sendMessage(msg)
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
             elif msg.text in ["Hehehe","Hehe","He","hehehe","hehe","he"]:
@@ -1393,16 +1391,6 @@ def bot(op):
                                      "STKVER": "100" }
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
-            elif msg.text in ["TL: "]:
-                tl_text = msg.text.replace("TL: ","")
-                cl.sendText(msg.to,"line://home/post?userMid="+mid+"&postId="+cl.new_post(tl_text)["result"]["post"]["postInfo"]["postId"])
-            elif msg.text in ["Cn "]:
-                string = msg.text.replace("Cn ","")
-                if len(string.decode('utf-8')) <= 20:
-                    profile = cl.getProfile()
-                    profile.displayName = string
-                    cl.updateProfile(profile)
-                    cl.sendText(msg.to,"name " + string + " done")
             elif msg.text in ["Cv1 rename "]:
                 string = msg.text.replace("Cv1 rename ","")
                 if len(string.decode('utf-8')) <= 20:
@@ -1866,31 +1854,31 @@ def bot(op):
         #-------------Fungsi Jam on/off Start-------------------#            
             elif msg.text in ["Jam on"]:
                 if wait["clock"] == True:
-                    cl.sendText(msg.to,"Bot 1 jam on")
+                    ki.sendText(msg.to,"Bot jam on")
                 else:
                     wait["clock"] = True
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"(%H:%M)")
-                    profile = cl.getProfile()
-                    profile.displayName = wait["cName"] + nowT
-                    cl.updateProfile(profile)
-                    cl.sendText(msg.to,"Jam Selalu On")
+                    profile = ki.getProfile()
+                    profile.displayName = wait["cName2"] + nowT
+                    ki.updateProfile(profile)
+                    ki.sendText(msg.to,"Jam Selalu On")
             elif msg.text in ["Jam off"]:
                 if wait["clock"] == False:
-                    cl.sendText(msg.to,"Bot 1 jam off")
+                    ki.sendText(msg.to,"Bot jam off")
                 else:
                     wait["clock"] = False
-                    cl.sendText(msg.to,"Jam Sedang Off")
+                    ki.sendText(msg.to,"Jam Sedang Off")
          #-------------Fungsi Jam on/off Finish-------------------#           
          
          #-------------Fungsi Change Clock Start------------------#
             elif msg.text in ["Change clock"]:
                 n = msg.text.replace("Change clock","")
                 if len(n.decode("utf-8")) > 13:
-                    cl.sendText(msg.to,"changed")
+                    ki.sendText(msg.to,"changed")
                 else:
-                    wait["cName"] = n
-                    cl.sendText(msg.to,"changed to\n\n" + n)
+                    wait["cName2"] = n
+                    ki.sendText(msg.to,"changed to\n\n" + n)
          #-------------Fungsi Change Clock Finish-----------------# 
          
         
@@ -1899,61 +1887,16 @@ def bot(op):
                 if wait["clock"] == True:
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"(%H:%M)")
-                    profile = cl.getProfile()
-                    profile.displayName = wait["cName"] + nowT
-                    cl.updateProfile(profile)
-                    cl.sendText(msg.to,"Sukses update")
-
                     profile = ki.getProfile()
                     profile.displayName = wait["cName2"] + nowT
                     ki.updateProfile(profile)
                     ki.sendText(msg.to,"Sukses update")
-
-                    profile = kk.getProfile()
-                    profile.displayName = wait["cName3"] + nowT
-                    kk.updateProfile(profile)
-                    kk.sendText(msg.to,"Sukses update")
-
-                    profile = kc.getProfile()
-                    profile.displayName = wait["cName4"] + nowT
-                    kc.updateProfile(profile)
-                    kc.sendText(msg.to,"Sukses update")
-
-                    profile = ks.getProfile()
-                    profile.displayName = wait["cName5"] + nowT
-                    ks.updateProfile(profile)
-                    ks.sendText(msg.to,"Sukses update")
-
-                    profile = ka.getProfile()
-                    profile.displayName = wait["cName6"] + nowT
-                    ka.updateProfile(profile)
-                    ka.sendText(msg.to,"Sukses update")
-
-                    profile = kb.getProfile()
-                    profile.displayName = wait["cName7"] + nowT
-                    kb.updateProfile(profile)
-                    kb.sendText(msg.to,"Sukses update")
-
-                    profile = ko.getProfile()
-                    profile.displayName = wait["cName8"] + nowT
-                    ko.updateProfile(profile)
-                    ko.sendText(msg.to,"Sukses update")
-
-                    profile = ke.getProfile()
-                    profile.displayName = wait["cName9"] + nowT
-                    ke.updateProfile(profile)
-                    ke.sendText(msg.to,"Sukses update")
-
-                    profile = ku.getProfile()
-                    profile.displayName = wait["cName10"] + nowT
-                    ku.updateProfile(profile)
-                    ku.sendText(msg.to,"Sukses update")
                 else:
-                    kc.sendText(msg.to,"Aktifkan jam terlebih dulu")
+                    ki.sendText(msg.to,"Aktifkan jam terlebih dulu")
          #-------------Fungsi Jam Update Finish-------------------#
 
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Alphabet join"]:
+            elif msg.text in ["Y"]:
               if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -1962,23 +1905,23 @@ def bot(op):
                         invsend = 0
                         Ticket = cl.reissueGroupTicket(msg.to)
                         ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         ka.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         kb.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         ko.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         ke.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         ku.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.2)
+                        time.sleep(0.0000001)
                         G = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
                         ku.updateGroup(G)
@@ -2040,7 +1983,7 @@ def bot(op):
     #----------------------Fungsi Join Group Finish---------------#
 
     #-------------Fungsi Leave Group Start---------------#
-            elif msg.text in ["Dadah"]:
+            elif msg.text in ["O"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
@@ -2284,7 +2227,7 @@ def bot(op):
                         
                       except:
                         Creatorbot = "Error"
-                      cl.sendText(msg.to, "Fake Hack Bot")
+                      cl.sendText(msg.to, "ℱℰℛﾉ")
                       cl.sendMessage(msg)
                       
             elif "Admin add @" in msg.text:
@@ -2360,13 +2303,13 @@ def bot(op):
                 tulisan = jmlh * (teks+"\n")
                  #@reno.a.w
                 if txt[1] == "on":
-                    if jmlh <= 100:
+                    if jmlh <= 20:
                        for x in range(jmlh):
                            cl.sendText(msg.to, teks)
                     else:
                        cl.sendText(msg.to, "SPAM DULU GAN")
                 elif txt[1] == "off":
-                    if jmlh <= 100:
+                    if jmlh <= 20:
                         cl.sendText(msg.to, tulisan)
                     else:
                         cl.sendText(msg.to, "SPAM DULU GAN")
@@ -2504,10 +2447,6 @@ def bot(op):
             elif "Allrespon: " in msg.text:
                 string = msg.text.replace("Allrespon: ","")
                 if len(string.decode('utf-8')) <= 500:
-                    profile = cl.getProfile()
-                    profile.statusMessage = string
-                    cl.updateProfile(profile)
-                if len(string.decode('utf-8')) <= 500:
                     profile = ki.getProfile()
                     profile.statusMessage = string
                     ki.updateProfile(profile)
@@ -2594,7 +2533,7 @@ def bot(op):
                     print "[Unban] Sukses"
                     _name = msg.text.replace("Unban @","")
                     _nametarget = _name.rstrip('  ')
-                    gs = cl.getGroup(msg.to)
+                    gs = kb.getGroup(msg.to)
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
                     gs = kc.getGroup(msg.to)
@@ -2603,7 +2542,7 @@ def bot(op):
                         if _nametarget == g.displayName:
                             targets.append(g.mid)
                     if targets == []:
-                        cl.sendText(msg.to,"Tidak Ditemukan.....")
+                        kb.sendText(msg.to,"Tidak Ditemukan.....")
                         ki.sendText(msg.to,"Tidak Ditemukan.....")
                         kk.sendText(msg.to,"Tidak Ditemukan.....")
                         kc.sendText(msg.to,"Tidak Ditemukan.....")
@@ -2613,7 +2552,7 @@ def bot(op):
                                 del wait["blacklist"][target]
                                 f=codecs.open('st2__b.json','w','utf-8')
                                 json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-                                cl.sendText(msg.to,"Akun Bersih Kembali")
+                                kb.sendText(msg.to,"Akun Bersih Kembali")
                             except:
                                 ki.sendText(msg.to,"Error")
            #----------------Fungsi Unbanned User Target Finish-----------------------#
@@ -2671,22 +2610,19 @@ def bot(op):
 
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Respon","respon"]:
-                cl.sendText(msg.to,"A")
-                ki.sendText(msg.to,"B")
-                kk.sendText(msg.to,"C")
-                kc.sendText(msg.to,"D")
-                ks.sendText(msg.to,"E")
-                ka.sendText(msg.to,"F")
-                kb.sendText(msg.to,"G")
-                ko.sendText(msg.to,"H")
-                ke.sendText(msg.to,"I")
-                ku.sendText(msg.to,"J")
+                cl.sendText(msg.to,"Hmm")
+                ki.sendText(msg.to,"Aku")
+                kk.sendText(msg.to,"Kangen")
+                kc.sendText(msg.to,"Aku")
+                ks.sendText(msg.to,"Sayang")
+                ka.sendText(msg.to,"Aku")
+                kb.sendText(msg.to,"Jatuh")
+                ko.sendText(msg.to,"Hati")
+                ke.sendText(msg.to,"Ke")
+                ku.sendText(msg.to,"Padamu")
       #-------------Fungsi Respon Finish---------------------#
 
-      #-------------Fungsi Balesan Respon Start---------------------#
-            elif msg.text in ["Ini Apa","ini apa","Apaan Ini","apaan ini"]:
-                ki.sendText(msg.to,"Ya gitu deh intinya mah")
-                
+      #-------------Fungsi Balesan Respon Start---------------------#                
             elif "Apakah " in msg.text:
                 tanya = msg.text.replace("Apakah ","")
                 jawab = ("Ya","Tidak","Bisa jadi")
@@ -2694,7 +2630,7 @@ def bot(op):
                 cl.sendText(msg.to,jawaban)
                 
             elif msg.text in ["Quote","quote","quotes","Quotes"]:
-                quote = ['Selamat pagi kalian" yang diberi harapan tinggi\n Lalu ditinggal pergi']
+                quote = ['Puncak marah paling tinggi bukan saat lagi memaki. Namun ketika seseorang tidak peduli sama sekali. Bahkan saat kamu mencoba mencari perhatiannya, dia tidak mau tau sedikitpun.']
                 psn = random.choice(quote)
                 cl.sendText(msg.to,psn)
 
@@ -2702,6 +2638,7 @@ def bot(op):
 
        #-------------Fungsi Speedbot Start---------------------#
             elif msg.text in ["Speed","speedbot"]:
+              if msg.from_ in admin:
                 start = time.time()
                 cl.sendText(msg.to, "Computing data...")
                 elapsed_time = time.time() - start
@@ -2785,7 +2722,7 @@ def bot(op):
                         group = cl.getGroup(msg.to)
                         for var in range(0,num):
                             name = "".join([random.choice(source_str) for x in xrange(10)])
-                            time.sleep(0.01)
+                            time.sleep(0.0001)
                             group.name = name
                             cl.updateGroup(group)
                     except:
@@ -2936,10 +2873,6 @@ def nameUpdate():
             if wait["clock"] == True:
                 now2 = datetime.now()
                 nowT = datetime.strftime(now2,"(%H:%M)")
-                profile = cl.getProfile()
-                profile.displayName = wait["cName"]
-                cl.updateProfile(profile)
-
                 profile2 = ki.getProfile()
                 profile2.displayName = wait["cName2"]
                 ki.updateProfile(profile2)
