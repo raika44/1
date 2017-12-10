@@ -3,7 +3,7 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,goslate
+import time,random,sys,json,codecs,threading,glob,re
 
 #kk = LINETCR.LINE()
 #kk.login(qr=True)
