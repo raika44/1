@@ -3,14 +3,14 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,goslate
+import time,random,sys,json,codecs,threading,glob,re
 
 #kk = LINETCR.LINE()
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE() #A
-cl.login(token="EnNQgmqL8dMmmVAuiSB2.WCCRkMNgQXINSOQNF/5yiG.Cc1RVj6oGbkJqlnJxuUycP03SCiH7H2rPn3sp5HjD/Q=")
+cl = LINETCR.LINE() #A)
+cl.login(qr=True)
 
 ki = LINETCR.LINE() #B
 ki.login(token="End9lhJuWjUryISxyB26.dsymntKZe3zbSsfc9qj9TG.4yI9g5/UnrfkvcKuecqMSUKGOhBh5yf2S7CYG/+X1f0=")
@@ -1595,37 +1595,29 @@ def bot(op):
                         Ticket = cl.reissueGroupTicket(msg.to)
                         ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        cl.sendText(msg.to,"Feriantoyp 20 jogja")
                         kk.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        kk.sendText(msg.to,"Feriantoyp 20 jogja")
                         kc.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        kc.sendText(msg.to,"Feriantoyp 20 jogja")
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        ks.sendText(msg.to,"Feriantoyp 20 jogja")
                         ka.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        ka.sendText(msg.to,"Feriantoyp 20 jogja")
                         kb.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        kb.sendText(msg.to,"Feriantoyp 20 jogja")
                         ko.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        ko.sendText(msg.to,"Feriantoyp 20 jogja")
                         ke.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
-                        ke.sendText(msg.to,"Feriantoyp 20 jogja")
                         ku.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
                         ku.sendText(msg.to,"Sudah lengkap")
-                        G = cl.getGroup(msg.to)
+                        G = ku.getGroup(msg.to)
                         G.preventJoinByTicket = True
                         ku.updateGroup(G)
                         print "All complete"
                         G.preventJoinByTicket(G)
-                        cl.updateGroup(G)
+                        ku.updateGroup(G)
 
             elif msg.text in ["A join"]:
               if msg.form_ in admin:
@@ -2119,7 +2111,7 @@ def bot(op):
                        for target in targets:
                             try:
                                cl.cloneContactProfile(target)
-                               cl.sendText(msg.to, "Copied.")
+                               cl.sendText(msg.to, "Suksesclone...")
                             except Exception as e:
                                 print e
                                 
@@ -2128,7 +2120,7 @@ def bot(op):
                     try:
                         cl.updateDisplayPicture(backup.pictureStatus)
                         cl.updateProfile(backup)
-                        cl.sendText(msg.to, "Refreshed.")
+                        cl.sendText(msg.to, "Suksesbackup...")
                     except Exception as e:
                         cl.sendText(msg.to, str(e))
 #------------------------------------------------------
@@ -2211,7 +2203,7 @@ def bot(op):
                     
             elif msg.text in ["Set"]:
                  if msg.toType == 2:
-                    cl.sendText(msg.to, "lurking on")
+                    cl.sendText(msg.to, "Check")
                     try:
                         del wait2['readPoint'][msg.to]
                         del wait2['readMember'][msg.to]
@@ -2321,7 +2313,6 @@ def bot(op):
         #-------------Fungsi Broadcast Start------------#
             elif "Bc " in msg.text:
 				bctxt = msg.text.replace("Bc ","")
-				cl.sendText(msg.to,(bctxt))
 				ki.sendText(msg.to,(bctxt))
 				kk.sendText(msg.to,(bctxt))
 				kc.sendText(msg.to,(bctxt))
@@ -2362,22 +2353,18 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Respon","respon"]:
               if msg.from_ in admin:
-                cl.sendText(msg.to,"Karena")
-                ki.sendText(msg.to,"Aku")
-                kk.sendText(msg.to,"Pernah")
-                kc.sendText(msg.to,"Singgah")
-                ks.sendText(msg.to,"Dihatimu")
-                ka.sendText(msg.to,"Untuk")
-                kb.sendText(msg.to,"Menyayangimu")
-                ko.sendText(msg.to,"Dan")
-                ke.sendText(msg.to,"Mencintaimu")
-                ku.sendText(msg.to,"Seutuhnya")
+                ki.sendText(msg.to,"HADIR BOS")
+                kk.sendText(msg.to,"HADIR BOS")
+                kc.sendText(msg.to,"HADIR BOS")
+                ks.sendText(msg.to,"HADIR BOS")
+                ka.sendText(msg.to,"HADIR BOS")
+                kb.sendText(msg.to,"HADIR BOS")
+                ko.sendText(msg.to,"HADIR BOS")
+                ke.sendText(msg.to,"HADIR BOS")
+                ku.sendText(msg.to,"HADIR BOS")
       #-------------Fungsi Respon Finish---------------------#
 
       #-------------Fungsi Balesan Respon Start---------------------#
-            elif msg.text in ["Ini Apa","ini apa","Apaan Ini","apaan ini"]:
-                ki.sendText(msg.to,"Ya gitu deh intinya mah")
-                
             elif "Apakah " in msg.text:
                 tanya = msg.text.replace("Apakah ","")
                 jawab = ("Ya","Tidak","Bisa jadi")
@@ -2385,9 +2372,9 @@ def bot(op):
                 cl.sendText(msg.to,jawaban)
                 
             elif msg.text in ["Quote","quote","quotes","Quotes"]:
-                quote = ['Selamat pagi kalian" yang diberi harapan tinggi\n Lalu ditinggal pergi']
+                quote = ['Aku sayang kamu']
                 psn = random.choice(quote)
-                cl.sendText(msg.to,psn)
+                ku.sendText(msg.to,psn)
 
       #-------------Fungsi Balesan Respon Finish---------------------#
 
@@ -2487,7 +2474,7 @@ def bot(op):
                 if wait["blacklist"] == {}:
                     cl.sendText(msg.to,"Tidak Ada Akun Terbanned")
                 else:
-                    ki.sendText(msg.to,"Blacklist user")
+                    cl.sendText(msg.to,"Blacklist user")
                     mc = ""
                     for mi_d in wait["blacklist"]:
                         mc += "->" +cl.getContact(mi_d).displayName + "\n"
