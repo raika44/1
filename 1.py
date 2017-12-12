@@ -380,8 +380,20 @@ def bot(op):
         if op.type == 17:
            if wait["Protectjoin"] == True:
                if op.param2 not in admin and Bots:
-                   random.choice(DEF).kickoutFromGroup(op.param1,[op.param2])
-               
+                  G = ki.getGroup(op.param1)
+                  G.preventJoinByTicket = True
+                  Ticket = ki.reissueGroupTicket(op.param1)
+                  ku.acceptGroupInvitationByTicket(op.param1,Ticket)
+                  ku.kickoutFromGroup(op.param1,[op,param2])
+                  ki.updateGroup(G)
+                  ku.leaveGroup(op.param1)
+                  ki.sendText(msg.to,"Jngn dianuin")
+               if op.param2 in wait["blacklist"]:
+                 pass
+               #if op.param2 inwait["whitelist"]:
+                 #pass
+               else:
+                 wait["blacklist"][op.param2] = True
         #------Joined User Kick start------#
         
         if op.type == 19:
@@ -403,7 +415,6 @@ def bot(op):
                     if op.param2 in Bots:
                         pass
                     try:
-                        cl.kickoutFromGroup(op.param1,[op.param2])
                         ki.kickoutFromGroup(op.param1,[op.param2])
                         kk.kickoutFromGroup(op.param1,[op.param2])
                         kc.kickoutFromGroup(op.param1,[op.param2])
@@ -433,10 +444,10 @@ def bot(op):
                     kb.acceptGroupInvitationByTicket(op.param1,Ti)
                     ko.acceptGroupInvitationByTicket(op.param1,Ti)
                     ke.acceptGroupInvitationByTicket(op.param1,Ti)
-                    X = cl.getGroup(op.param1)
+                    X = ks.getGroup(op.param1)
                     X.preventJoinByTicket = True
-                    cl.updateGroup(X)
-                    Ti = cl.reissueGroupTicket(op.param1)
+                    ks.updateGroup(X)
+                    Ti = ks.reissueGroupTicket(op.param1)
                     if op.param2 in wait["blacklist"]:
                         pass
                     if op.param2 in wait["whitelist"]:
