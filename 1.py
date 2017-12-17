@@ -10,35 +10,8 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.loginResult()
 
 cl = LINETCR.LINE() #A)
-cl.login(token="En6HQUwqP2weqBgHbC92.WCCRkMNgQXINSOQNF/5yiG.4uREMlH/k7cTK/gSb5s+WsrhbBFA85mF1z009mCiuAY=")
-
-ki = LINETCR.LINE() #B
-ki.login(token="End9lhJuWjUryISxyB26.dsymntKZe3zbSsfc9qj9TG.4yI9g5/UnrfkvcKuecqMSUKGOhBh5yf2S7CYG/+X1f0=")
-
-kk = LINETCR.LINE() #C
-kk.login(token="EnmhtXP2O4i6jCSylYVe.lO7z2PxJreJvItvDmnC4pG.9GGdHaWFftSqSA6mzLZ08/euPHy3vMU85UCV/Tv3UIo=")
-
-kc = LINETCR.LINE() #D
-kc.login(token="Enzynl6TB1iizr19poAb.3j8octTY1dRKRRgEp/aloW.tg+jLv9zw9Df1XghU/2SP9nr7nVL3+42qVoLNgdcFV4=")
-
-ks = LINETCR.LINE() #E
-ks.login(token="En2O6NDbFGRaEkQxAyU2.RTHktTFynMHLWr5vGpEcuG.YHmoHMcySZm8MwexhAO/jKTtH2+v4tRggOMV11H9rKM=")
-
-ka = LINETCR.LINE() #F
-ka.login(token="EnTL1YlZGI3qc5g1pU65.ia6zHvHF6Afn/9yBPn64Lq.RWjCGpNfwSFXK3qPPNejSO6DcHaTPNybKZtVzDoCKpo=")
-
-kb = LINETCR.LINE() #G
-kb.login(token="Enk2mLhFkXiNBbCCNML3.+Gg+cvsgUjjRXkEHMiXcyW.DzD+FuczWOLwdXcWsmspW6hkm3SqoXh69rnEe9luBtU=")
-
-ko = LINETCR.LINE() #H
-ko.login(token="EnSpJqmg8gzzMGYt9nbd.uc83hG+ryUoVspAY42pMxq.japsUxQABUbOOpv98uRZ6POet727IakhFe5s7vJJ7wI=")
-
-ke = LINETCR.LINE() #I
-ke.login(token="Enyz3mBgJpEyMUOPkHUc.Q2sAXj4phdlYlKIoKXJuVa.jDbIXMRN2XhqW7NADuPH5sFYyHBWaVIDqXMcWgjs/b8=")
-
-ku = LINETCR.LINE() #J
-ku.login(token="EnGldS5r0l2CKKr6vYb5.EeD+7io5HWIoHiOlzRLS9q.rQkQ8n3JS9Ty6tBixsEXXlySIZgfrhT+0FoAyccca7k=")
-
+cl.login(token="En6HQUwqP2weqBgHbC92.WCCRkMNgQXINSOQNF/5yiG.4uREMlH/k7c$
+ki = kk = kc = ks = ka = kb = ko = ke = ku = cl
 
 print "Welcome"
 reload(sys)
